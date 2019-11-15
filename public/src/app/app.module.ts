@@ -8,12 +8,14 @@ import { HttpService } from './http.service';
 import { HttpClientModule } from '@angular/common/http';
 
 import { FormsModule } from '@angular/forms';
-import { TaskComponent } from './task/task.component';
+// import { TaskComponent } from './task/task.component';
+import { CakeComponent } from './cake/cake.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TaskComponent
+    // TaskComponent,
+    CakeComponent
   ],
   imports: [
     BrowserModule,

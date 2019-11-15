@@ -1,0 +1,21 @@
+.halfSection {
+    display: inline-block;
+    width: 30%;
+    max-height: 300px;
+    margin: 5px;
+    vertical-align: top;
+}
+
+.halfSectionScrollable {
+    display: inline-block;
+    width: 30%;
+    max-height: 300px;
+    margin: 5px;
+    vertical-align: top;
+    overflow: auto;
+}
+
+.customImage {
+    max-width: 100%;
+    height: auto;
+}

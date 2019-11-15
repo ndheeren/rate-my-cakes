@@ -1,0 +1,15 @@
+<!-- <h2>Selected Cake (as nested component!)</h2> -->
+<!-- <p>{{ cakeToShow | json }}</p> -->
+<div>
+    <h2>Baked by {{ cakeToShow.bakerName }}</h2>
+    <div>
+        <div class='halfSection'><img src="{{ cakeToShow.imageURL }}" class='customImage'></div>
+        <div class='halfSectionScrollable'>
+            <h4>Average rating: {{ this.calculateAverageRating() }}</h4>
+            <div *ngFor="let rating of cakeToShow.ratings">
+                <h4>{{ rating.comment }}</h4>
+                <h4>{{ rating.numberOfStars }}</h4>
+            </div>
+        </div>
+    </div>
+</div>

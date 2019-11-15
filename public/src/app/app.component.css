@@ -1,0 +1,30 @@
+.cakeSubmission {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    border: 2px solid black;
+}
+
+.cakesDisplay {
+    display: inline-block;
+    width: 60%;
+    height: 650px;
+    border: 2px solid black;
+    overflow: auto;
+}
+
+.cakeBox {
+    display: inline-block;
+    width: 300px;
+    max-height: 300px;
+}
+
+.cakeRating {
+    display: inline-block;
+    max-width: 300px;
+}
+
+.customImage {
+    max-width: 100%;
+    height: auto;
+}
